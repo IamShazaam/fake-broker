@@ -9,5 +9,3 @@
       to handle user requests and manage the interaction between the database and the user interface
 
     * routes => This directory contains your route files that define the endpoints for the API.
-
-    * index.js => This file is the entry point for the application
