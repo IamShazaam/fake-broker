@@ -1,0 +1,36 @@
+.header {
+        height: 10vh;
+        background-color: $red-light-dark;
+        // border-radius: 1rem;
+        border: solid .2rem $red-dark;
+        border-radius: .1rem;
+        margin: 0 auto;
+        padding: 1rem 0 4.4rem 5rem;
+
+    &__ul {
+        list-style: none;
+        display: flex;
+
+        &__item {
+            margin-right: 1rem;
+            text-decoration: none;
+
+            a {
+                text-decoration: none;
+                color: gray;
+                font-size: 2rem;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+                &:hover {
+                    background-color: $red-dark;
+                    padding: 1rem;
+                }
+            }
+
+            &__active {
+                background-color: $red-dark;
+                padding: 1rem;
+            }
+        }
+    }
+}

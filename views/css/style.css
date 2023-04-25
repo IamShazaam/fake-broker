@@ -1,0 +1,24 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-weight: 900;
+  line-height: 1.7;
+  color: #777;
+  /* padding: 30px; */
+  padding: 3rem;
+  background-color: black;
+  box-sizing: border-box; }
+
+.header {
+  height: 95vh;
+  background-size: cover;
+  background-position: top;
+  position: relative; }

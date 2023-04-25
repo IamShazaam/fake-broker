@@ -1,0 +1,75 @@
+// Colors for light mode
+$white: #ffffff;
+$black: #000000;
+$gray-lightest: #f9f9f9;
+$gray-lighter: #e6e6e6;
+$gray-light: #cccccc;
+$gray: #999999;
+$gray-dark: #666666;
+$blue-light: #d1ecf1;
+$blue: #3498db;
+$green-light: #d4edda;
+$green: #28a745;
+$yellow-light: #fff3cd;
+$yellow: #ffc107;
+$red-light: #f8d7da;
+$red: #dc3545;
+$purple-light: #ebe8f9;
+$purple: #6f42c1;
+
+// Colors for dark mode
+$black-light: #212121;
+$black-lighter: #2c2c2c;
+$black-lightest: #333333;
+$blue-light-dark: #0d6efd;
+$blue-dark: #0a58ca;
+$green-light-dark: #198754;
+$green-dark: #157347;
+$yellow-light-dark: #ffc107;
+$yellow-dark: #ffae03;
+$red-light-dark: #dc3545;
+$red-dark: #b02a37;
+$purple-light-dark: #6f42c1;
+$purple-dark: #5a32a3;
+
+// Color combinations
+$color-primary: (
+  light: $blue,
+  dark: $blue-light-dark,
+);
+$color-secondary: (
+  light: $green,
+  dark: $green-light-dark,
+);
+$color-accent: (
+  light: $purple,
+  dark: $purple-light-dark,
+);
+$color-success: (
+  light: $green,
+  dark: $green-dark,
+);
+$color-warning: (
+  light: $yellow,
+  dark: $yellow-dark,
+);
+$color-danger: (
+  light: $red,
+  dark: $red-dark,
+);
+$color-info: (
+  light: $blue,
+  dark: $blue-dark,
+);
+$color-link: (
+  light: $blue,
+  dark: $blue-dark,
+);
+$color-background: (
+  light: $gray-lightest,
+  dark: $black,
+);
+$color-text: (
+  light: $black,
+  dark: $white,
+);
